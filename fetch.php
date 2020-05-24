@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "mysqlpassword", "csit_library");
+$connect = mysqli_connect("localhost", "root", "", "csit_library");
 $output = '';
 
 if(isset($_POST["query"]))
